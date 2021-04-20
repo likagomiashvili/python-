@@ -1,0 +1,11 @@
+width = int(input("Ширина: "))
+length = int(input("Длина: "))
+height = int(input("Высота: "))
+if (width <=15) and (length<=15) and (height<=15):
+    print ('Коробка №1')
+elif (15< width <50 and 15<length <50 and 15< height <50):
+    print ('Коробка №2')
+elif (length>200):
+    print ('Упаковка для лыж')
+else:
+    print ('стандартная коробка №3')
